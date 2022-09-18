@@ -5,7 +5,11 @@ st is a simple terminal emulator for X which sucks less.
 
 Requirements
 ------------
-In order to build st you need the Xlib header files.
+In order to build st you need the Xlib header files. In Gentoo,
+this is package "x11-libs/libX11".
+
+For this configuration, you will also need the font Inconsolata.
+In Gentoo, this is package "media-fonts/inconsolata".
 
 
 Installation
